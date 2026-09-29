@@ -1,9 +1,11 @@
+from django.db import models
+
 class Book:
-    def __init__(self, id: int, title: str, author: str, publicationYear: str, genre: str, availability: bool):
+    def __init__(self, id: int, title: str, author: str, publication_year: str, genre: str, availability: bool):
         self.id = id
         self.title = title
         self.author = author
-        self.publicationYear = publicationYear
+        self.publicationYear = publication_year
         self.genre = genre
         self.availability = availability
 
